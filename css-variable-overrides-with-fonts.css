@@ -1,0 +1,431 @@
+/* Generated CSS override: colour, background, and font declarations converted to variables. */
+/* Load this after the original stylesheet. Edit values in :root to reskin/retype the site. */
+
+:root {
+  --font-family-lucida-sans-stack: 'Lucida Sans Unicode','Lucida Grande',Verdana, Arial, sans-serif;
+  --font-size-16px: 16px;
+  --color-00426a: #00426A;
+  --background-image-main-background02: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/main_background02.jpg);
+  --background-color-fff: #FFF;
+  --background-image-banner-dots: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/banner_dots.png);
+  --font-size-18px: 18px;
+  --background-image-navbar-hoz-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/navbar_hoz_background.png);
+  --background-image-content-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/content_background.png);
+  --background-color-becfdd: #BECFDD;
+  --background-image-error-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/error_background.png);
+  --background-image-content-footer: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/content_footer.png);
+  --background-image-error-footer: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/error_footer.png);
+  --font-size-14px: 14px;
+  --background-image-navbar-seperator: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/navbar_seperator.gif);
+  --background-image-submenu-footer: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/submenu_footer.png);
+  --background-image-submenu-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/submenu_background.png);
+  --background-image-none: none;
+  --background-image-submenu-bullet: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/submenu_bullet.gif);
+  --background-image-submenu-top: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/submenu_top.png);
+  --background-image-header-dots: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/header_dots.png);
+  --background-image-table-footer: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_footer.png);
+  --background-image-table-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_background.png);
+  --font-size-13px: 13px;
+  --background-image-button-green-disabled: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_green_disabled.png);
+  --color-417392: #417392;
+  --background-image-button-green: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_green.png);
+  --background-color-transparent: transparent;
+  --background-image-button-green-on: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_green_on.png);
+  --background-image-button-blue: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_blue.png);
+  --background-image-button-blue-on: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_blue_on.png);
+  --background-image-button-show-all: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_show_all.png);
+  --background-image-button-show-all-on: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_show_all_on.png);
+  --background-image-input-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/input_background.gif);
+  --background-image-error-icon: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/error_icon.png);
+  --background-color-a7c1d1: #A7C1D1;
+  --color-85a7bb: #85A7BB;
+  --background-image-input-background-error: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/input_background_error.gif);
+  --background-color-e3a5a5: #E3A5A5;
+  --background-image-table-background-full: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_background_full.png);
+  --background-image-table-footer-full: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_footer_full.png);
+  --background-image-table-header-full: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_header_full.png);
+  --background-image-col-seperator: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/col_seperator.gif);
+  --background-color-a4bfd0: #A4BFD0;
+  --background-color-bacedb: #BACEDB;
+  --background-image-table-dots: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_dots.gif);
+  --background-image-button-toggle-a: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_toggle_a.png);
+  --background-image-button-toggle-b: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_toggle_b.png);
+  --background-image-legend-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/legend_background.png);
+  --background-image-actions-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/actions_background.png);
+  --background-image-table-footer-full-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_footer_full_disabled.png");
+  --background-image-table-background-full-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_background_full_disabled.png");
+  --background-image-table-header-full-scheme-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_header_full_scheme_disabled.png");
+  --background-image-table-dots-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_dots_disabled.png");
+  --color-5d5d5d: #5D5D5D;
+  --background-color-c8c8c8: #C8C8C8;
+  --background-color-d5d5d5: #D5D5D5;
+  --background-color-c7c7c7: #C7C7C7;
+  --background-image-grey-button-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/grey_button_disabled.png");
+  --background-image-green-button-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/green_button_disabled.png");
+  --background-image-aq-add-icon-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_add_icon_disabled.png");
+  --background-image-aq-tool-icon-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_tool_icon_disabled.png");
+  --background-image-aq-delete-icon-small-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_delete_icon_small_disabled.png");
+  --background-image-aq-add-icon-small-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_add_icon_small_disabled.png");
+  --color-c7c7c7: #C7C7C7;
+}
+
+body {
+  font-family: var(--font-family-lucida-sans-stack);
+  font-size: var(--font-size-16px);
+  color: var(--color-00426a);
+  background-image: var(--background-image-main-background02);
+  background-color: var(--background-color-fff);
+}
+
+#banner {
+  background-image: var(--background-image-banner-dots);
+}
+
+#toolbox, #banner_heading {
+  font-size: var(--font-size-18px);
+}
+
+#navbar {
+  background-image: var(--background-image-navbar-hoz-background);
+}
+
+.content, .content_error {
+  background-image: var(--background-image-content-background);
+  background-color: var(--background-color-becfdd);
+}
+
+.content_error {
+  background-image: var(--background-image-error-background);
+}
+
+.content_panel, .content_panel_error {
+  background-image: var(--background-image-content-footer);
+}
+
+.content_panel_error {
+  background-image: var(--background-image-error-footer);
+}
+
+.content_panel p, .content_panel_error p {
+  font-size: var(--font-size-14px);
+}
+
+#main_menu a {
+  background-image: var(--background-image-navbar-seperator);
+  font-size: var(--font-size-16px);
+  color: var(--color-00426a);
+}
+
+#main_menu li.active {
+  background-image: var(--background-image-submenu-footer);
+}
+
+#main_menu ul.submenu {
+  background-image: var(--background-image-submenu-background);
+}
+
+#main_menu ul.submenu_off {
+  background-image: var(--background-image-none);
+}
+
+#main_menu ul.submenu li {
+  background-image: var(--background-image-submenu-bullet);
+}
+
+#main_menu .submenu_active {
+  background-image: var(--background-image-submenu-top);
+}
+
+#main_menu ul.submenu a {
+  background-image: var(--background-image-none);
+  font-size: var(--font-size-14px);
+  color: var(--color-00426a);
+}
+
+.content_panel h1, .content_panel_error h1 {
+  font-size: var(--font-size-16px);
+  color: var(--color-00426a);
+  background-image: var(--background-image-header-dots);
+}
+
+.table_wrapper {
+  background-image: var(--background-image-table-footer);
+}
+
+.table_panel {
+  background-image: var(--background-image-table-background);
+}
+
+#footer {
+  background-image: var(--background-image-header-dots);
+}
+
+#footer p {
+  font-size: var(--font-size-13px);
+}
+
+input.disable_button, input.disable_button:active {
+  background-image: var(--background-image-button-green-disabled);
+  color: var(--color-417392);
+}
+
+.confirm, .discard_button, .page_order input.clear_button {
+  background-image: var(--background-image-button-green);
+  color: var(--color-00426a);
+}
+
+.confirm, .discard_button, .page_order input.clear_button, .disable_button {
+  background-color: var(--background-color-transparent);
+  font-family: var(--font-family-lucida-sans-stack);
+  font-size: var(--font-size-16px);
+}
+
+.confirm:active, .discard_button:active {
+  background-image: var(--background-image-button-green-on);
+}
+
+a.confirm:active {
+  background-image: var(--background-image-button-green-on);
+}
+
+.discard_button {
+  background-image: var(--background-image-button-blue);
+}
+
+.discard_button:active {
+  background-image: var(--background-image-button-blue-on);
+}
+
+.page_order input.clear_button {
+  background-image: var(--background-image-button-show-all);
+  font-size: var(--font-size-14px);
+}
+
+.page_order input.clear_button:active {
+  background-image: var(--background-image-button-show-all-on);
+}
+
+select {
+  font-size: var(--font-size-14px);
+  font-family: var(--font-family-lucida-sans-stack);
+  color: var(--color-00426a);
+  background-image: var(--background-image-input-background);
+  background-color: var(--background-color-transparent);
+}
+
+option {
+  background-color: var(--background-color-fff);
+}
+
+.intro {
+  font-size: var(--font-size-14px);
+}
+
+.button_on {
+  background-image: var(--background-image-submenu-top) !important;
+}
+
+.errorList {
+  font-size: var(--font-size-14px);
+}
+
+.errorItem {
+  background-image: var(--background-image-error-icon);
+}
+
+.list_selector {
+  font-size: var(--font-size-14px);
+}
+
+.row01, .row02 {
+  font-size: var(--font-size-14px);
+  color: var(--color-00426a);
+}
+
+.row01 {
+  background-color: var(--background-color-a7c1d1);
+}
+
+.faded {
+  color: var(--color-85a7bb);
+}
+
+.faded:hover {
+  color: var(--color-00426a) !important;
+}
+
+.leftcol input, .page_order input {
+  font-size: var(--font-size-13px);
+  font-family: var(--font-family-lucida-sans-stack);
+  color: var(--color-00426a);
+  background-image: var(--background-image-input-background);
+  background-color: var(--background-color-transparent);
+}
+
+.inerror {
+  background-image: var(--background-image-input-background-error) !important;
+}
+
+.tr_inerror {
+  background-color: var(--background-color-e3a5a5) !important;
+}
+
+.select_list {
+  background-image: var(--background-image-table-background-full);
+}
+
+.select_list_full {
+  background-image: var(--background-image-table-footer-full);
+}
+
+.select_list .table {
+  background-image: var(--background-image-table-header-full);
+}
+
+.full_width {
+  background-image: var(--background-image-table-header-full);
+}
+
+.col_title {
+  font-size: var(--font-size-14px);
+}
+
+.select_list_full .table th, .select_list_full .table td, #legendPanel .table th {
+  font-size: var(--font-size-13px);
+}
+
+.select_list_full .table th, #legendPanel .table th {
+  font-size: var(--font-size-14px);
+  background-image: var(--background-image-col-seperator);
+  background-color: var(--background-color-transparent);
+}
+
+.select_list_full .table .endcol, #legendPanel .table .endcol {
+  background-image: var(--background-image-none);
+}
+
+.select_list_full .table .odd {
+  background-color: var(--background-color-a4bfd0);
+}
+
+.select_list_full .table .even {
+  background-color: var(--background-color-bacedb);
+}
+
+.header_row {
+  background-image: var(--background-image-table-dots);
+}
+
+#toggle_button {
+  background-image: var(--background-image-button-toggle-a);
+  background-color: var(--background-color-transparent);
+  font-size: var(--font-size-14px);
+  color: var(--color-00426a);
+}
+
+.toggle_button_on {
+  background-image: var(--background-image-button-toggle-b) !important;
+}
+
+#legendPanel {
+  background-image: var(--background-image-legend-background);
+  background-color: var(--background-color-transparent);
+}
+
+#actionsPanel {
+  background-image: var(--background-image-actions-background);
+  background-color: var(--background-color-transparent);
+}
+
+.disabled .select_list_full {
+  background-image: var(--background-image-table-footer-full-disabled);
+}
+
+.disabled .select_list {
+  background-image: var(--background-image-table-background-full-disabled);
+}
+
+.disabled .criteria_table {
+  background-image: var(--background-image-table-header-full-scheme-disabled) !important;
+}
+
+.disabled .header_row {
+  background-image: var(--background-image-table-dots-disabled);
+  color: var(--color-5d5d5d);
+}
+
+.disabled .select_list_full .table .odd {
+  background-color: var(--background-color-c8c8c8);
+}
+
+.disabled .select_list_full .table .even {
+  background-color: var(--background-color-d5d5d5);
+}
+
+.disabled .last {
+  background-color: var(--background-color-c7c7c7) !important;
+}
+
+.disabled .emptySet {
+  background-image: var(--background-image-grey-button-disabled);
+  color: var(--color-5d5d5d);
+}
+
+.disabled .emptySet:active {
+  background-image: var(--background-image-grey-button-disabled);
+  color: var(--color-5d5d5d);
+}
+
+.disabled .buttonOn {
+  background-image: var(--background-image-green-button-disabled);
+  color: var(--color-00426a);
+}
+
+.disabled .buttonOn:active {
+  background-image: var(--background-image-green-button-disabled);
+  color: var(--color-00426a);
+}
+
+.disabled .addCondtion {
+  background-image: var(--background-image-aq-add-icon-disabled);
+}
+
+.disabled .tools {
+  background-image: var(--background-image-aq-tool-icon-disabled);
+}
+
+.disabled .deleteSmall, .addSmall {
+  background-image: var(--background-image-aq-delete-icon-small-disabled);
+}
+
+.disabled .addSmall {
+  background-image: var(--background-image-aq-add-icon-small-disabled);
+}
+
+.disabled .loginInput {
+  color: var(--color-c7c7c7);
+}
+
+.disabled .condTitle {
+  color: var(--color-5d5d5d);
+}
+
+.disabled .headerBlock {
+  color: var(--color-5d5d5d);
+}
+
+.disabled .testLegend {
+  color: var(--color-5d5d5d);
+}
+
+.disabled .loginLbl {
+  color: var(--color-5d5d5d);
+}
+
+.disabled .criteria_table .loginCol2 {
+  color: var(--color-5d5d5d);
+}
+
+.disabled select {
+  color: var(--color-5d5d5d);
+}
