@@ -987,4 +987,7 @@ div#toolbox {
     height: 70px;
     margin: 0 10px 0 0;
 }
+#logo img {
+    opacity: 0;
+}
 
