@@ -1019,7 +1019,7 @@ select {
     padding-right: 16px;
     min-height: 44px;
 }
-.RuleSubmit_button {
+.RuleSubmit_button, .SchemeSelectSubmit {
     float: left;
     width: 100%;
     margin: 24px 0 0;
@@ -1028,4 +1028,7 @@ select {
 #banner_heading h1 {
     margin: 65px 0 30px 25px;
     font-size: 24px;
+}
+.content_panel h1, .content_panel_error h1 {
+    font-weight: 500;
 }
