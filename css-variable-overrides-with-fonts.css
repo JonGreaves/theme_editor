@@ -1043,7 +1043,7 @@ select {
     min-height: auto;
 }
 tr.last {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 #schemegroup_table th, #schemegroup_table td, #editSchemes_table th, #editSchemes_table td, #runorder_table th, #runorder_table td, #sortable_helper td {
     padding-top: 9px;
