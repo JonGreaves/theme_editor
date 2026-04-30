@@ -1041,8 +1041,38 @@ select {
 #schemegroup_table th, #schemegroup_table td, #editSchemes_table th, #editSchemes_table td, #runorder_table th, #runorder_table td, #sortable_helper td {
     padding-top: 9px;
     padding-bottom: 9px;
-    min-height: 43px;
+    line-height: 22px;
 }
 .header_row {
     background-color: #E2E2E3;
+}
+
+.select_list_full .table .odd,
+.select_list_full .table .even {
+    background-color: transparent;
+    border-bottom: 1px solid #dedede
+}
+
+.select_list_full .table .odd:hover,
+.select_list_full .table .even:hover {
+    background-color: #E9E9E9;
+}
+
+.select_list_full .table .odd,
+.select_list_full .table .even {
+    background-color: transparent;
+    border-bottom: 1px solid #dedede
+}
+
+.select_list_full .table .odd:hover,
+.select_list_full .table .even:hover {
+    background-color: #E9E9E9;
+}
+
+img.statusIcon[src*="tick"] {
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjIuMCBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI2IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGZpbGw9IiMxNjg5MTQiIGQ9Ik01MzAuOCAxMzQuMUM1NDUuMSAxNDQuNSA1NDguMyAxNjQuNSA1MzcuOSAxNzguOEwyODEuOSA1MzAuOEMyNzYuNCA1MzguNCAyNjcuOSA1NDMuMSAyNTguNSA1NDMuOUMyNDkuMSA1NDQuNyAyNDAgNTQxLjIgMjMzLjQgNTM0LjZMMTA1LjQgNDA2LjZDOTIuOSAzOTQuMSA5Mi45IDM3My44IDEwNS40IDM2MS4zQzExNy45IDM0OC44IDEzOC4yIDM0OC44IDE1MC43IDM2MS4zTDI1Mi4yIDQ2Mi44TDQ4Ni4yIDE0MS4xQzQ5Ni42IDEyNi44IDUxNi42IDEyMy42IDUzMC45IDEzNHoiLz48L3N2Zz4=");
+}
+
+img.statusIcon[src*="cross"] {
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjIuMCBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI2IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGZpbGw9IiNkNzA1MGMiIGQ9Ik0xODMuMSAxMzcuNEMxNzAuNiAxMjQuOSAxNTAuMyAxMjQuOSAxMzcuOCAxMzcuNEMxMjUuMyAxNDkuOSAxMjUuMyAxNzAuMiAxMzcuOCAxODIuN0wyNzUuMiAzMjBMMTM3LjkgNDU3LjRDMTI1LjQgNDY5LjkgMTI1LjQgNDkwLjIgMTM3LjkgNTAyLjdDMTUwLjQgNTE1LjIgMTcwLjcgNTE1LjIgMTgzLjIgNTAyLjdMMzIwLjUgMzY1LjNMNDU3LjkgNTAyLjZDNDcwLjQgNTE1LjEgNDkwLjcgNTE1LjEgNTAzLjIgNTAyLjZDNTE1LjcgNDkwLjEgNTE1LjcgNDY5LjggNTAzLjIgNDU3LjNMMzY1LjggMzIwTDUwMy4xIDE4Mi42QzUxNS42IDE3MC4xIDUxNS42IDE0OS44IDUwMy4xIDEzNy4zQzQ5MC42IDEyNC44IDQ3MC4zIDEyNC44IDQ1Ny44IDEzNy4zTDMyMC41IDI3NC43TDE4My4xIDEzNy40eiIvPjwvc3ZnPg==");
 }
