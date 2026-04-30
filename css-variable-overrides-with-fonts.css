@@ -1035,3 +1035,12 @@ select {
 .aq_new_scheme {
     
 }
+
+#schemegroup_table th, #schemegroup_table td, #editSchemes_table th, #editSchemes_table td, #runorder_table th, #runorder_table td, #sortable_helper td {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    min-height: 43px;
+}
+.header_row {
+    background-color: #E2E2E3;
+}
