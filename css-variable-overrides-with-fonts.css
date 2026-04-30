@@ -1080,3 +1080,9 @@ img.statusIcon[src*="cross"] {
 #user a:link, #user a:visited, .intro a:link, .intro a:visited {
     color: ##1748d0;
 }
+
+img.crumbArrow[src*="crumb_arrow"] {
+    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjIuMCBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI2IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGZpbGw9IiMxYTFhMWEiIGQ9Ik00NDEuMyAyOTkuOEM0NTEuNSAzMTIuNCA0NTAuOCAzMzAuOSA0MzkuMSAzNDIuNkwzMTEuMSA0NzAuNkMzMDEuOSA0NzkuOCAyODguMiA0ODIuNSAyNzYuMiA0NzcuNUMyNjQuMiA0NzIuNSAyNTYuNSA0NjAuOSAyNTYuNSA0NDhMMjU2LjUgMTkyQzI1Ni41IDE3OS4xIDI2NC4zIDE2Ny40IDI3Ni4zIDE2Mi40QzI4OC4zIDE1Ny40IDMwMiAxNjAuMiAzMTEuMiAxNjkuM0w0MzkuMiAyOTcuM0w0NDEuNCAyOTkuN3oiLz48L3N2Zz4=);
+    width: 18px;
+    margin: -2px 4px 0 6px;
+}
