@@ -1,20 +1,49 @@
-/* Generated CSS override: colour, background, and font declarations converted to variables. */
-/* Load this after the original stylesheet. Edit values in :root to reskin/retype the site. */
+/* Generated CSS override from updated source. */
+/* Extracted properties: color, background-color, background-image, font-family, font-size. */
+/* Duplicate same-selector/property declarations were collapsed to the later winning declaration. */
+/* Load this file after the original stylesheet. */
+
 :root {
-  --font-family-lucida-sans-stack: 'Lucida Sans Unicode','Lucida Grande',Verdana, Arial, sans-serif;
-  --font-size-16px: 16px;
+  /* color */
   --color-00426a: #00426A;
-  --background-image-main-background02: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/main_background02.jpg);
+  --color-417392: #417392;
+  --color-85a7bb: #85A7BB;
+  --color-5d5d5d: #5D5D5D;
+  --color-c7c7c7: #C7C7C7;
+  --color-transparent: transparent;
+  --color-rgb-0-135-0: rgb(0,135,0);
+  --color-crimson: crimson;
+  --color-800080: #800080;
+  --color-008000: #008000;
+  --color-00f: #00F;
+  --color-f00: #F00;
+  /* background-color */
   --background-color-fff: #FFF;
+  --background-color-becfdd: #BECFDD;
+  --background-color-transparent: transparent;
+  --background-color-a7c1d1: #A7C1D1;
+  --background-color-e3a5a5: #E3A5A5;
+  --background-color-a4bfd0: #A4BFD0;
+  --background-color-bacedb: #BACEDB;
+  --background-color-c8c8c8: #C8C8C8;
+  --background-color-d5d5d5: #D5D5D5;
+  --background-color-c7c7c7: #C7C7C7;
+  --background-color-a3becf: #A3BECF;
+  --background-color-dce6ed: #DCE6ED;
+  --background-color-84d786: #84D786;
+  --background-color-d1dee7: #D1DEE7;
+  --background-color-e6eef2: #E6EEF2;
+  --background-color-ffff99: #ffff99;
+  --background-color-c8d9e3: #C8D9E3;
+  --background-color-fafafa: #FAFAFA;
+  --background-color-ffffff: #FFFFFF;
+  --background-color-d6e1e9: #D6E1E9;
+  /* background-image */
+  --background-image-main-background02: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/main_background02.jpg);
   --background-image-banner-dots: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/banner_dots.png);
-  --font-size-18px: 18px;
   --background-image-navbar-hoz-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/navbar_hoz_background.png);
   --background-image-content-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/content_background.png);
-  --background-color-becfdd: #BECFDD;
-  --background-image-error-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/error_background.png);
   --background-image-content-footer: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/content_footer.png);
-  --background-image-error-footer: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/error_footer.png);
-  --font-size-14px: 14px;
   --background-image-navbar-seperator: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/navbar_seperator.gif);
   --background-image-submenu-footer: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/submenu_footer.png);
   --background-image-submenu-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/submenu_background.png);
@@ -24,11 +53,8 @@
   --background-image-header-dots: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/header_dots.png);
   --background-image-table-footer: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_footer.png);
   --background-image-table-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_background.png);
-  --font-size-13px: 13px;
   --background-image-button-green-disabled: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_green_disabled.png);
-  --color-417392: #417392;
   --background-image-button-green: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_green.png);
-  --background-color-transparent: transparent;
   --background-image-button-green-on: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_green_on.png);
   --background-image-button-blue: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_blue.png);
   --background-image-button-blue-on: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_blue_on.png);
@@ -36,16 +62,11 @@
   --background-image-button-show-all-on: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_show_all_on.png);
   --background-image-input-background: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/input_background.gif);
   --background-image-error-icon: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/error_icon.png);
-  --background-color-a7c1d1: #A7C1D1;
-  --color-85a7bb: #85A7BB;
   --background-image-input-background-error: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/input_background_error.gif);
-  --background-color-e3a5a5: #E3A5A5;
   --background-image-table-background-full: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_background_full.png);
   --background-image-table-footer-full: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_footer_full.png);
   --background-image-table-header-full: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_header_full.png);
   --background-image-col-seperator: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/col_seperator.gif);
-  --background-color-a4bfd0: #A4BFD0;
-  --background-color-bacedb: #BACEDB;
   --background-image-table-dots: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_dots.gif);
   --background-image-button-toggle-a: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_toggle_a.png);
   --background-image-button-toggle-b: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_toggle_b.png);
@@ -55,17 +76,64 @@
   --background-image-table-background-full-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_background_full_disabled.png");
   --background-image-table-header-full-scheme-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_header_full_scheme_disabled.png");
   --background-image-table-dots-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_dots_disabled.png");
-  --color-5d5d5d: #5D5D5D;
-  --background-color-c8c8c8: #C8C8C8;
-  --background-color-d5d5d5: #D5D5D5;
-  --background-color-c7c7c7: #C7C7C7;
   --background-image-grey-button-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/grey_button_disabled.png");
   --background-image-green-button-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/green_button_disabled.png");
   --background-image-aq-add-icon-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_add_icon_disabled.png");
   --background-image-aq-tool-icon-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_tool_icon_disabled.png");
   --background-image-aq-delete-icon-small-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_delete_icon_small_disabled.png");
   --background-image-aq-add-icon-small-disabled: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_add_icon_small_disabled.png");
-  --color-c7c7c7: #C7C7C7;
+  --background-image-vertical-divider: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/vertical_divider.png);
+  --background-image-table-header-full-scheme: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_header_full_scheme.png");
+  --background-image-vertical-divider-top: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/vertical_divider_top.png);
+  --background-image-vertical-divider-bottom: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/vertical_divider_bottom.png);
+  --background-image-col-seperator-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/col_seperator.gif");
+  --background-image-aq-options: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_options.png");
+  --background-image-aq-options-on: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_options_on.png);
+  --background-image-aq-new-group: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_new_group.png");
+  --background-image-aq-new-group-on: url(https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_new_group_on.png);
+  --background-image-aq-options-menu: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_options_menu.png");
+  --background-image-table-header-full-editgroup: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_header_full_editGroup.png");
+  --background-image-vertical-divider-bottom-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/vertical_divider_bottom.png");
+  --background-image-input-background-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/input_background.gif");
+  --background-image-table-footer-full-bestprem: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_footer_full_bestPrem.png");
+  --background-image-horizontal-divider-bottom: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/horizontal_divider_bottom.png");
+  --background-image-aq-error-footer: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_error_footer.png");
+  --background-image-aq-error-background: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_error_background.png");
+  --background-image-table-header-full-bestprem: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_header_full_bestPrem.png");
+  --background-image-green-button-small: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/green_button_small.png");
+  --background-image-blue-button-small: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/blue_button_small.png");
+  --background-image-green-button-small-on: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/green_button_small_on.png");
+  --background-image-blue-button-small-on: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/blue_button_small_on.png");
+  --background-image-button-blue-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_blue.png");
+  --background-image-button-blue-on-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_blue_on.png");
+  --background-image-button-green-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_green.png");
+  --background-image-button-green-on-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/button_green_on.png");
+  --background-image-aq-tool-icon: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_tool_icon.png");
+  --background-image-aq-delete-icon-small: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_delete_icon_small.png");
+  --background-image-aq-add-icon-small: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_add_icon_small.png");
+  --background-image-aq-add-icon: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_add_icon.png");
+  --background-image-blue-button-long: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/blue_button_long.png");
+  --background-image-blue-button-long-on: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/blue_button_long_on.png");
+  --background-image-table-header-full-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_header_full.png");
+  --background-image-table-dots-2: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/table_dots.gif");
+  --background-image-header-dots-2: url("../static/images/header_dots.png");
+  --background-image-aq-stop-icon-list: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_stop_icon_list.png");
+  --background-image-aq-stop-icon-faded-list: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_stop_icon_faded_list.png");
+  --background-image-aq-stop-icon: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_stop_icon.png");
+  --background-image-aq-notification-background: url("https://dev-activequoteadmin.wnet.local/ActiveQuoteAdmin/static/images/aq_notification_background.png");
+  /* font-family */
+  --font-family-lucida-sans-stack: 'Lucida Sans Unicode','Lucida Grande',Verdana, Arial, sans-serif;
+  --font-family-lucida-sans-stack-2: 'Lucida Sans Unicode','Lucida Grande',Verdana,Arial,sans-serif;
+  /* font-size */
+  --font-size-16px: 16px;
+  --font-size-18px: 18px;
+  --font-size-14px: 14px;
+  --font-size-13px: 13px;
+  --font-size-small: small;
+  --font-size-11px: 11px;
+  --font-size-12px: 12px;
+  --font-size-smaller: smaller;
+  --font-size-0: 0;
 }
 
 body {
@@ -93,16 +161,8 @@ body {
   background-color: var(--background-color-becfdd);
 }
 
-.content_error {
-  background-image: var(--background-image-error-background);
-}
-
 .content_panel, .content_panel_error {
   background-image: var(--background-image-content-footer);
-}
-
-.content_panel_error {
-  background-image: var(--background-image-error-footer);
 }
 
 .content_panel p, .content_panel_error p {
@@ -218,10 +278,6 @@ option {
 
 .intro {
   font-size: var(--font-size-14px);
-}
-
-.button_on {
-  background-image: var(--background-image-submenu-top) !important;
 }
 
 .errorList {
@@ -428,6 +484,485 @@ option {
 .disabled select {
   color: var(--color-5d5d5d);
 }
+
+.col01 {
+  background-image: var(--background-image-vertical-divider);
+}
+
+#schemegroup_table, #runorder_table, #sortable_helper {
+  background-image: var(--background-image-table-header-full-scheme);
+}
+
+.criteria_table {
+  background-image: var(--background-image-table-header-full-scheme) !important;
+}
+
+.SchemeSelectLbl, .loginLbl {
+  font-size: var(--font-size-14px);
+}
+
+.RuleSubmit_log {
+  font-size: var(--font-size-14px);
+  color: var(--color-417392);
+}
+
+#schemegroup_table th, #schemegroup_table td , #editSchemes_table th, #editSchemes_table td, #runorder_table th, #runorder_table td, #sortable_helper td {
+  background-image: var(--background-image-vertical-divider);
+}
+
+.criteria_table th, .criteria_table td {
+  background-image: var(--background-image-vertical-divider) !important;
+}
+
+#schemegroup_table .toprow td, #runorder_table .toprow td, #usersTable th, #usersTable td {
+  background-image: var(--background-image-vertical-divider-top);
+}
+
+#schemegroup_table .bottomrow td, #runorder_table .bottomrow td {
+  background-image: var(--background-image-vertical-divider-bottom);
+}
+
+.criteria_table .bottomrow td {
+  background-image: var(--background-image-vertical-divider-bottom) !important;
+}
+
+#schemegroup_table th, #runorder_table th {
+  background-image: var(--background-image-col-seperator-2);
+}
+
+.criteria_table th {
+  background-image: var(--background-image-col-seperator-2) !important;
+}
+
+.nobg_image , .endcol {
+  background-image: var(--background-image-none) !important;
+}
+
+.aq_options, .aq_new_scheme, .aq_user {
+  background-image: var(--background-image-aq-options);
+  font-size: var(--font-size-13px);
+  color: var(--color-00426a);
+}
+
+.aq_user:active {
+  background-image: var(--background-image-aq-options-on);
+}
+
+.last {
+  background-color: var(--background-color-a3becf) !important;
+}
+
+.aq_new_scheme {
+  background-image: var(--background-image-aq-new-group);
+}
+
+.aq_options:active {
+  background-image: var(--background-image-aq-options-on);
+}
+
+.aq_new_scheme:active {
+  background-image: var(--background-image-aq-new-group-on);
+}
+
+ul.submenu {
+  background-image: var(--background-image-aq-options-menu);
+}
+
+ul.submenu a {
+  background-image: var(--background-image-none);
+  font-size: var(--font-size-13px);
+  color: var(--color-00426a);
+}
+
+.button_on {
+  background-image: var(--background-image-aq-options) !important;
+}
+
+.button_on:active {
+  background-image: var(--background-image-aq-options-on) !important;
+}
+
+#user {
+  color: var(--color-417392);
+  font-size: var(--font-size-14px);
+}
+
+#user a:link, #user a:visited, .intro a:link, .intro a:visited {
+  color: var(--color-417392);
+}
+
+#user a:hover, #user a:active, .intro a:hover, .intro a:active {
+  color: var(--color-00426a);
+}
+
+#editSchemes_table {
+  background-image: var(--background-image-table-header-full-editgroup);
+}
+
+#editSchemes_table th, #editSchemes_table td {
+  background-image: var(--background-image-vertical-divider);
+}
+
+#editSchemes_table th {
+  background-image: var(--background-image-col-seperator-2);
+}
+
+#tickSchemes {
+  background-image: var(--background-image-vertical-divider-bottom-2);
+}
+
+.schemeInput, .loginInput, .conditionInput, .countInput {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-input-background-2);
+  color: var(--color-00426a);
+  font-family: var(--font-family-lucida-sans-stack-2);
+  font-size: var(--font-size-14px);
+}
+
+.select_list_bestPrem {
+  background-image: var(--background-image-table-footer-full-bestprem);
+}
+
+.chooseTableCell {
+  background-image: var(--background-image-horizontal-divider-bottom) !important;
+}
+
+#chooseTable .even {
+  background-color: var(--background-color-dce6ed);
+}
+
+.ticked, .list_ticked {
+  background-color: var(--background-color-84d786) !important;
+}
+
+.content_error {
+  background-image: var(--background-image-aq-error-footer);
+  background-color: var(--background-color-transparent);
+}
+
+.content_panel_error {
+  background-image: var(--background-image-aq-error-background);
+}
+
+.ruleSummary {
+  font-size: var(--font-size-small);
+}
+
+.runOrder {
+  font-size: var(--font-size-18px) !important;
+}
+
+.dragHandle, .runOrder a {
+  color: var(--color-00426a);
+}
+
+#runorder_table .uploadRule, .uploadRule {
+  background-color: var(--background-color-d1dee7);
+}
+
+#divImportGroupCtrl {
+  background-color: var(--background-color-d1dee7);
+}
+
+.ruleConfig .loginCol1 {
+  background-image: var(--background-image-vertical-divider-bottom-2);
+}
+
+.highlight {
+  background-color: var(--background-color-e6eef2) !important;
+}
+
+.bestPrem {
+  background-image: var(--background-image-table-header-full-bestprem) !important;
+}
+
+#tickRuleSchemes {
+  background-image: var(--background-image-vertical-divider-bottom-2);
+}
+
+.ruleConfig .loginCol2 li {
+  font-size: var(--font-size-14px);
+}
+
+.yellow td {
+  background-color: var(--background-color-ffff99);
+}
+
+.smallConf, .smallDisc {
+  background-image: var(--background-image-green-button-small);
+  font-size: var(--font-size-14px);
+}
+
+.smallDisc {
+  background-image: var(--background-image-blue-button-small);
+}
+
+.smallConf:active, .smallDisc:active {
+  background-image: var(--background-image-green-button-small-on);
+}
+
+.smallDisc:active {
+  background-image: var(--background-image-blue-button-small-on);
+}
+
+a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:active {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-button-blue-2);
+  font-size: var(--font-size-16px);
+  color: var(--color-00426a);
+}
+
+a.link_button:active {
+  background-image: var(--background-image-button-blue-on-2);
+}
+
+a.link_button_submit:link, a.link_button_submit:visited, a.link_button_submit:hover, a.link_button_submit:active {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-button-green-2);
+  font-size: var(--font-size-16px);
+  color: var(--color-00426a);
+}
+
+a.link_button_submit:active {
+  background-image: var(--background-image-button-green-on-2);
+}
+
+a.disabled, .disabled a {
+  color: var(--color-417392) !important;
+}
+
+a.link_button_submit.disabled {
+  background-image: var(--background-image-button-green-disabled) !important;
+  color: var(--color-417392) !important;
+}
+
+input[type="submit"].disabled {
+  background-image: var(--background-image-button-green-disabled) !important;
+  color: var(--color-417392) !important;
+}
+
+.conditionsTable .col1 {
+  font-size: var(--font-size-14px) !important;
+}
+
+.conditionsTable .header {
+  font-size: var(--font-size-16px) !important;
+}
+
+.tools {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-aq-tool-icon);
+  color: var(--color-transparent);
+}
+
+.deleteSmall, .addSmall {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-aq-delete-icon-small);
+  color: var(--color-transparent);
+}
+
+.addSmall {
+  background-image: var(--background-image-aq-add-icon-small);
+}
+
+.addCondtion {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-aq-add-icon);
+  color: var(--color-transparent);
+}
+
+.emptySet {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-blue-button-long);
+  color: var(--color-00426a);
+  font-size: var(--font-size-13px);
+}
+
+.emptySet:active {
+  background-image: var(--background-image-blue-button-long-on);
+}
+
+.editCriteriaSet {
+  font-size: var(--font-size-16px) !important;
+}
+
+.testLegend {
+  font-size: var(--font-size-14px);
+}
+
+.textArea {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-input-background-2);
+  color: var(--color-00426a);
+  font-family: var(--font-family-lucida-sans-stack-2);
+  font-size: var(--font-size-14px);
+}
+
+#login_table {
+  background-image: var(--background-image-table-header-full-2);
+}
+
+.criteria_table .nobg_image {
+  background-image: var(--background-image-none) !important;
+}
+
+.criteria_table .toprow .nobg_image, .criteria_table .bottomrow .nobg_image {
+  background-image: var(--background-image-none) !important;
+}
+
+.list_header_row {
+  background-color: var(--background-color-c8d9e3);
+}
+
+.publishSuccessTxt {
+  color: var(--color-rgb-0-135-0);
+}
+
+.publishFailedTxt {
+  color: var(--color-crimson);
+}
+
+#schemegroup_table td.lastUpdated {
+  font-size: var(--font-size-11px);
+}
+
+.translationFieldName {
+  color: var(--color-800080);
+}
+
+.translationFieldComparator {
+  color: var(--color-008000);
+}
+
+.translationFieldValue, .translationFieldUnit {
+  color: var(--color-00f);
+}
+
+.translationError {
+  color: var(--color-f00);
+}
+
+.translationHeader {
+  background-image: var(--background-image-table-dots-2);
+}
+
+.translationIntro {
+  font-size: var(--font-size-14px);
+}
+
+.riskGroupTable {
+  font-family: var(--font-family-lucida-sans-stack-2);
+}
+
+.riskGroupTable th {
+  background-color: var(--background-color-transparent);
+  color: var(--color-00426a);
+  font-size: var(--font-size-14px);
+}
+
+.riskGroupTable thead th {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-header-dots-2);
+  color: var(--color-00426a);
+  font-size: var(--font-size-16px);
+}
+
+.riskGroupTable td {
+  font-size: var(--font-size-12px);
+}
+
+.o td {
+  background-color: var(--background-color-fafafa) !important;
+}
+
+.e td {
+  background-color: var(--background-color-transparent) !important;
+}
+
+#changesSincePublish {
+  font-size: var(--font-size-smaller);
+}
+
+#editRuleAction .content_panel {
+  background-image: var(--background-image-none);
+}
+
+#editRuleActionOverlay {
+  background-color: var(--background-color-ffffff);
+}
+
+#tblSchemeRules tr.header_row.header_row_separator, #topSlider #legendTable tr.header_row.header_row_separator {
+  background-image: var(--background-image-table-dots);
+}
+
+#tblSchemeRules tr.header_row.header_row_separator th, #topSlider #legendTable tr.header_row.header_row_separator th {
+  font-size: var(--font-size-0);
+}
+
+div.stopFurther span, li.stopFurther span, td.stopFurther span {
+  background-image: var(--background-image-aq-stop-icon-list);
+}
+
+li.gpinactive.stopFurther span {
+  background-image: var(--background-image-aq-stop-icon-faded-list);
+}
+
+td.stopFurther span {
+  background-image: var(--background-image-aq-stop-icon);
+}
+
+.ui-widget-overlay {
+  background-image: var(--background-image-none);
+  background-color: var(--background-color-ffffff);
+}
+
+.yesnoDialog {
+  background-color: var(--background-color-d6e1e9);
+  background-image: var(--background-image-aq-notification-background);
+}
+
+.ui-dialog.yesnoDialog .ui-dialog-content {
+  font-family: var(--font-family-lucida-sans-stack);
+  font-size: var(--font-size-16px);
+  color: var(--color-00426a);
+}
+
+.ui-dialog.yesnoDialog .ui-dialog-buttonpane {
+  background-image: var(--background-image-none);
+  background-color: var(--background-color-transparent);
+}
+
+button.dialogNo, button.dialogYes, .ui-widget-content button.dialogNo.ui-state-default, .ui-widget-content button.dialogYes.ui-state-default {
+  background-image: var(--background-image-button-green);
+  color: var(--color-00426a);
+  background-color: var(--background-color-transparent);
+  font-family: var(--font-family-lucida-sans-stack);
+  font-size: var(--font-size-16px);
+}
+
+.ui-widget-content button.dialogNo.ui-state-default {
+  background-image: var(--background-image-button-blue);
+}
+
+#divAddGenericAction {
+  font-size: var(--font-size-13px);
+}
+
+.removeGenericAction {
+  background-color: var(--background-color-transparent);
+  background-image: var(--background-image-aq-delete-icon-small);
+  color: var(--color-transparent);
+}
+
+#priceMatchPanel, #defineBrokerRef {
+  font-size: var(--font-size-14px);
+}
+
+#priceMatchPanel .smallpricematchelm {
+  font-size: var(--font-size-14px);
+}
+
+
 
 div#toolbox {
     display: none;
