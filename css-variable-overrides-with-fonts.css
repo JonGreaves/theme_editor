@@ -1,6 +1,5 @@
 /* Generated CSS override: colour, background, and font declarations converted to variables. */
 /* Load this after the original stylesheet. Edit values in :root to reskin/retype the site. */
-
 :root {
   --font-family-lucida-sans-stack: 'Lucida Sans Unicode','Lucida Grande',Verdana, Arial, sans-serif;
   --font-size-16px: 16px;
