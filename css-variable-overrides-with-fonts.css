@@ -1043,9 +1043,16 @@ select {
     padding-bottom: 9px;
     line-height: 22px;
 }
-.header_row {
+#schemegroup_table tr.header_row th {
     background-color: #E2E2E3;
-    border-radius: 8px;
+}
+
+#schemegroup_table tr.header_row th:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+#schemegroup_table tr.header_row th:last-child {
+    border-radius: 0 8px 8px 0;
 }
 
 .select_list_full .table .odd,
