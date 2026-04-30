@@ -1009,7 +1009,7 @@ select {
     font-weight: 400;
 }
 
-.confirm, .discard_button, .page_order input.clear_button, .disable_button {
+.confirm, .discard_button, .page_order input.clear_button, .disable_button, .aq_new_scheme {
     background-color: #1748d0;
     border-radius: 8px;
     color: #fff;
@@ -1031,4 +1031,7 @@ select {
 }
 .content_panel h1, .content_panel_error h1 {
     font-weight: 500;
+}
+.aq_new_scheme {
+    
 }
