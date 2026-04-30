@@ -1035,9 +1035,16 @@ select {
     font-weight: 500;
 }
 .aq_new_scheme {
-    
+    padding: 10px 16px 13px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    min-height: auto;
 }
-
+tr.last {
+  background-color: #fff;
+}
 #schemegroup_table th, #schemegroup_table td, #editSchemes_table th, #editSchemes_table td, #runorder_table th, #runorder_table td, #sortable_helper td {
     padding-top: 9px;
     padding-bottom: 9px;
