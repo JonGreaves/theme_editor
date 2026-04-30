@@ -1,11 +1,27 @@
 (function () {
   const STORAGE_KEY = "css-theme-vars";
+  const LIVE_STYLE_ID = "css-theme-live-overrides";
+
+  function getLiveStyleTag() {
+    let tag = document.getElementById(LIVE_STYLE_ID);
+
+    if (!tag) {
+      tag = document.createElement("style");
+      tag.id = LIVE_STYLE_ID;
+      tag.setAttribute("data-theme-editor", "true");
+      document.body.appendChild(tag);
+    }
+
+    return tag;
+  }
 
   function getVars() {
     const styles = getComputedStyle(document.documentElement);
     const vars = [];
+
     for (let i = 0; i < styles.length; i++) {
       const name = styles[i];
+
       if (name.startsWith("--")) {
         vars.push({
           name,
@@ -13,11 +29,16 @@
         });
       }
     }
+
     return vars;
   }
 
-  function applyVar(name, value) {
-    document.documentElement.style.setProperty(name, value);
+  function writeLiveOverrides(vars) {
+    const css = `:root {\n${vars
+      .map(v => `  ${v.name}: ${v.value};`)
+      .join("\n")}\n}`;
+
+    getLiveStyleTag().textContent = css;
   }
 
   function save(vars) {
@@ -33,7 +54,9 @@
   }
 
   function exportCSS(vars) {
-    return `:root {\n${vars.map(v => `  ${v.name}: ${v.value};`).join("\n")}\n}`;
+    return `:root {\n${vars
+      .map(v => `  ${v.name}: ${v.value};`)
+      .join("\n")}\n}`;
   }
 
   function createUI() {
@@ -49,8 +72,14 @@
     const saved = load();
 
     vars.forEach(v => {
-      if (saved[v.name]) v.value = saved[v.name];
+      if (saved[v.name]) {
+        v.value = saved[v.name];
+      }
+    });
 
+    writeLiveOverrides(vars);
+
+    vars.forEach(v => {
       const row = document.createElement("div");
       row.style.marginBottom = "8px";
 
@@ -64,15 +93,17 @@
 
       input.oninput = () => {
         v.value = input.value;
-        applyVar(v.name, v.value);
-        save(Object.fromEntries(vars.map(x => [x.name, x.value])));
+
+        writeLiveOverrides(vars);
+
+        save(Object.fromEntries(
+          vars.map(x => [x.name, x.value])
+        ));
       };
 
       row.appendChild(label);
       row.appendChild(input);
       panel.appendChild(row);
-
-      applyVar(v.name, v.value);
     });
 
     const exportBtn = document.createElement("button");
@@ -84,8 +115,10 @@
     };
 
     panel.appendChild(exportBtn);
-
     document.body.appendChild(panel);
+
+    // Ensure the live style tag is the final element before </body>
+    document.body.appendChild(getLiveStyleTag());
   }
 
   if (document.readyState === "loading") {
