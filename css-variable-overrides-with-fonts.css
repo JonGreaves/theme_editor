@@ -990,4 +990,13 @@ div#toolbox {
 #logo img {
     opacity: 0;
 }
+.table_panel.full_width {
+    border: 1px solid #dedede;
+    border-radius: 16px;
+    padding: 16px;
+}
 
+.table_panel.full_width .col01 {
+    width: 395px;
+    border-right: 1px solid #dedede
+}
