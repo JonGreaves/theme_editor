@@ -1045,6 +1045,7 @@ select {
 }
 .header_row {
     background-color: #E2E2E3;
+    border-radius: 8px;
 }
 
 .select_list_full .table .odd,
