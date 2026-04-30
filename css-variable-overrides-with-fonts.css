@@ -428,3 +428,20 @@ option {
 .disabled select {
   color: var(--color-5d5d5d);
 }
+
+div#toolbox {
+    display: none;
+}
+#banner_heading h1 {
+    margin: 65px 0 30px 26px;
+}
+#banner {
+    margin: 0;
+}
+
+.content, .content_error {
+    border: 1px solid #DADADA;
+    border-radius: 16px;
+}
+
+
