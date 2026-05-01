@@ -1158,3 +1158,15 @@ ul.submenu .first a:hover {
     padding: 6px 16px;
     border-radius: 8px;
 }
+.button_on {
+    height: auto;
+}
+
+.aq_options:active {
+    padding: 2px 48px 5px 16px;
+    width: auto;
+    height: 20px;
+}
+.td_options {
+  padding: 9px 0 9px 10px !important;
+}
