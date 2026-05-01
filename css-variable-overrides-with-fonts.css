@@ -1136,6 +1136,9 @@ ul.submenu {
     background-image: none;
     width: auto;
     padding: 12px;
+    width: 250px;
+    margin-left: -166px;
+    z-index: 1;
 }
 
 ul.submenu li, 
