@@ -1118,3 +1118,25 @@ img.crumbArrow[src*="crumb_arrow"] {
     padding: 20px 20px 15px 2px;
     float: none;
 }
+
+.aq_options, .aq_new_scheme, .aq_user {
+    background-color: #1748d0;
+    border-radius: 8px;
+    color: #fff;
+    width: auto;
+    font-weight: 400;
+    display: inline-block;
+    padding: 2px 48px 5px 16px;
+}
+
+ul.submenu {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(26, 26, 26, 0.1) 0px 4px 6px -1px, rgba(26, 26, 26, 0.1) 0px 2px 4px -2px;
+    background-image: none;
+}
+
+ul.submenu li, 
+ul.submenu li.first {
+    background-image: none;
+}
