@@ -1170,3 +1170,15 @@ ul.submenu .first a:hover {
 .td_options {
   padding: 9px 0 9px 10px !important;
 }
+
+a.aq_options::after {
+    content:"";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjIuMCBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI2IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGZpbGw9InJnYigyNTUsIDI1NSwgMjU1KSIgZD0iTTMwMC4zIDQ0MC44QzMxMi45IDQ1MSAzMzEuNCA0NTAuMyAzNDMuMSA0MzguNkw0NzEuMSAzMTAuNkM0ODAuMyAzMDEuNCA0ODMgMjg3LjcgNDc4IDI3NS43QzQ3MyAyNjMuNyA0NjEuNCAyNTYgNDQ4LjUgMjU2TDE5Mi41IDI1NkMxNzkuNiAyNTYgMTY3LjkgMjYzLjggMTYyLjkgMjc1LjhDMTU3LjkgMjg3LjggMTYwLjcgMzAxLjUgMTY5LjkgMzEwLjZMMjk3LjkgNDM4LjZMMzAwLjMgNDQwLjh6Ii8+PC9zdmc+");
+    position: relative;
+    margin: 0 0 0 -16px;
+    top: 3px;
+    left: 30px;
+}
