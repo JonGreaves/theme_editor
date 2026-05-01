@@ -1134,6 +1134,8 @@ ul.submenu {
     border-radius: 8px;
     box-shadow: rgba(26, 26, 26, 0.1) 0px 4px 6px -1px, rgba(26, 26, 26, 0.1) 0px 2px 4px -2px;
     background-image: none;
+    width: auto;
+    padding: 12px;
 }
 
 ul.submenu li, 
@@ -1145,5 +1147,14 @@ ul.submenu .first a{
     color: #454545;
     text-shadow: none;
     word-spacing: normal;
-    padding: 4px 37px 3px 0;
+    padding: 6px 16px;
+}
+ul.submenu a:hover, 
+ul.submenu .first a:hover {
+    color: #454545;
+    text-shadow: none;
+    word-spacing: normal;
+    background-color: #efefef;
+    padding: 6px 16px;
+    border-radius: 8px;
 }
