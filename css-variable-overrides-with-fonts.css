@@ -1140,3 +1140,10 @@ ul.submenu li,
 ul.submenu li.first {
     background-image: none;
 }
+ul.submenu a,
+ul.submenu .first a{
+    color: #454545;
+    text-shadow: none;
+    word-spacing: normal;
+    padding: 4px 37px 3px 0;
+}
