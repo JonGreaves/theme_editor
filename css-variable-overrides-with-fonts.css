@@ -1019,9 +1019,9 @@ a.link_button_submit:link, a.link_button_submit:visited, a.link_button_submit:ho
     color: #fff;
     width: auto;
     min-width: 140px;
-    padding-left: 16px;
-    padding-right: 16px;
     min-height: 44px;
+    padding: 0 16px;
+    line-height: 44px;
 }
 
 .confirm:hover, .discard_button:hover, .page_order input.clear_button:hover, .disable_button:hover, .aq_new_scheme:hover {
