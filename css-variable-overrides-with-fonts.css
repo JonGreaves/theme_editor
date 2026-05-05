@@ -1011,7 +1011,7 @@ select {
     font-weight: 400;
 }
 
-.confirm, .discard_button, .page_order input.clear_button, .disable_button, .aq_new_scheme {
+.confirm, .discard_button, .page_order input.clear_button, .disable_button, .aq_new_scheme, .confirm:active, .discard_button:active {
     background-color: #1748d0;
     border-radius: 8px;
     color: #fff;
@@ -1021,6 +1021,11 @@ select {
     padding-right: 16px;
     min-height: 44px;
 }
+
+.confirm:hover, .discard_button:hover, .page_order input.clear_button:hover, .disable_button:hover, .aq_new_scheme:hover {
+  background-color: #3F66D1
+}
+
 .RuleSubmit_button, .SchemeSelectSubmit {
     float: left;
     width: 100%;
@@ -1187,4 +1192,8 @@ a.aq_options::after {
 
 .content_panel, .content_panel_error {
     background-color: #fff;
+}
+
+.loginInput:focus {
+    outline: #1748d0 auto 1px;
 }
