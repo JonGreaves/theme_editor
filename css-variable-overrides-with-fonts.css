@@ -1012,7 +1012,8 @@ select {
     font-weight: 400;
 }
 
-.confirm, .discard_button, .page_order input.clear_button, .disable_button, .aq_new_scheme, .confirm:active, .discard_button:active {
+.confirm, .discard_button, .page_order input.clear_button, .disable_button, .aq_new_scheme, .confirm:active, .discard_button:active,
+a.link_button_submit:link, a.link_button_submit:visited, a.link_button_submit:hover, a.link_button_submit:active {
     background-color: #1748d0;
     border-radius: 8px;
     color: #fff;
