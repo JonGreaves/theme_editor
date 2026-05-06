@@ -1061,16 +1061,19 @@ tr.last {
     background-color: #E2E2E3;
 }
 
-#schemegroup_table tr.header_row th:first-child {
+#schemegroup_table tr.header_row th:first-child,
+#tickSchemes tr.header_row th:first-child {
     border-radius: 8px 0 0 8px;
 }
 
-#schemegroup_table tr.header_row th:last-child {
+#schemegroup_table tr.header_row th:last-child,
+#tickSchemes tr.header_row th:last-child {
     border-radius: 0 8px 8px 0;
 }
 
 .select_list_full .table .odd,
-.select_list_full .table .even {
+.select_list_full .table .even,
+#chooseTable .even {
     background-color: transparent;
     border-bottom: 1px solid #dedede
 }
