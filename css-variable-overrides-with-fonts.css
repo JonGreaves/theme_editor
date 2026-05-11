@@ -1234,6 +1234,37 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
 #tickSchemes {
    padding-top: 24px;
    float: right;
+   min-height: 650px;
+}
+
+#defineBrokerRef {
+   padding-top: 48px;
+   padding-left: 6px;
+}
+
+#defineGroup {
+   padding-top: 0px;
+}
+
+#tickSchemes {
+   padding-top: 0;
+   float: right;
+   min-height: 650px;
+   margin-top: 24px;
+}
+
+#tickSchemes.show.hidden {
+   outline: #d8d8d8 1px dotted;
+   visibility: visible;
+   border-radius: 4px;
+}
+
+#tickSchemes.show.hidden table {
+   visibility: hidden;
+}
+
+#tickSchemes table {
+   height: 100%;
 }
 
 #defineBrokerRef {
@@ -1251,3 +1282,4 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     padding-bottom:4px;
     margin: 5px 0;
 }
+
