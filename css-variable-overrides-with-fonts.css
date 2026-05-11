@@ -1253,13 +1253,15 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
    margin-top: 24px;
 }
 
-#tickSchemes.show.hidden {
+#tickSchemes.show.hidden,
+#tickSchemes.hidden  {
    outline: #d8d8d8 1px dotted;
    visibility: visible;
    border-radius: 4px;
 }
 
-#tickSchemes.show.hidden table {
+#tickSchemes.show.hidden table,
+#tickSchemes.hidden table {
    visibility: hidden;
 }
 
@@ -1424,4 +1426,8 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     border:  1px solid #dadada;
     border-radius: 12px 3px 3px 12px;
     width: 818px;
+}
+
+.loginElm .save {
+    float: left;
 }
