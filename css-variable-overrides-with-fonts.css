@@ -1062,13 +1062,19 @@ tr.last {
 }
 
 #schemegroup_table tr.header_row th:first-child,
-#tickSchemes tr.header_row th:first-child {
+#tickSchemes tr.header_row th:first-child,
+#tblSchemeRules tr.header_row th:first-child {
     border-radius: 8px 0 0 8px;
 }
 
 #schemegroup_table tr.header_row th:last-child,
-#tickSchemes tr.header_row th:last-child {
+#tickSchemes tr.header_row th:last-child,
+#tblSchemeRules tr.header_row th:last-child  {
     border-radius: 0 8px 8px 0;
+}
+
+#tblSchemeRules tr.header_row.header_row_separator {
+    display:none
 }
 
 .select_list_full .table .odd,
@@ -1470,4 +1476,8 @@ ul.submenu a.stopFurtherRules:link, ul.submenu a.stopFurtherRules:visited, ul.su
 
 #ruleGroups {
     border-top: 1px solid #dedede;
+}
+
+#runorder_table .save {
+    padding: 0 5px 20px 0;
 }
