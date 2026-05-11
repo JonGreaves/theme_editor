@@ -1446,3 +1446,27 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     background-image: none;    
     background-color: #fff
 }
+
+#ruleGroupEditor_actionsWrapper,
+.ui-resizable-n,
+.ui-resizable-n:before {
+    background: #fff;
+}
+
+#ruleGroupEditor_content .table_panel.select_list, #ruleGroupEditor_content #ruleGroups .table_panel.select_list, .groupRules {
+    background: #fbfbfb
+}
+
+ul.submenu li.stopFurtherRulesWrap {
+    background-image: none;
+}
+
+ul.submenu a.stopFurtherRules:link, ul.submenu a.stopFurtherRules:visited, ul.submenu a.stopFurtherRules:hover, ul.submenu a.stopFurtherRules:active {
+    border: 1px solid #dedede;
+    background-color: #fbfbfb;
+    text-shadow: none;
+}
+
+#ruleGroups {
+    border-top: 1px solid #dedede;
+}
