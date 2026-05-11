@@ -1116,7 +1116,7 @@ body {
     background-color: #fbfbfb;
 }
 
-.schemeInput, .loginInput, .conditionInput, .countInput {
+.schemeInput, .loginInput, .conditionInput, .countInput, .select {
     border: 1px solid #dedede;
     border-radius: 8px;
     padding:8px;
@@ -1199,7 +1199,7 @@ a.aq_options::after {
     background-color: #fff;
 }
 
-.loginInput:focus {
+.loginInput:focus, select:focus {
     outline: #1748d0 auto 1px;
 }
 
