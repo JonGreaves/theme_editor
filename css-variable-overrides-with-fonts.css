@@ -1283,3 +1283,14 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     margin: 5px 0;
 }
 
+.discard {
+    padding: 48px 2px 15px 20px;
+    clear: both;
+    float: left;
+}
+
+.save {
+    padding: 48px 0 15px 2px;
+    float: right;
+    clear: right;
+}
