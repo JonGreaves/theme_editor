@@ -1013,7 +1013,7 @@ select {
 }
 
 .confirm, .discard_button, .page_order input.clear_button, .disable_button, .aq_new_scheme, .confirm:active, .discard_button:active,
-a.link_button_submit:link, a.link_button_submit:visited, a.link_button_submit:hover, a.link_button_submit:active {
+a.link_button_submit:link, a.link_button_submit:visited, a.link_button_submit:hover, a.link_button_submit:active, #cboxClose {
     background-color: #1748d0;
     border-radius: 8px;
     color: #fff;
@@ -1116,7 +1116,7 @@ body {
     background-color: #fbfbfb;
 }
 
-.schemeInput, .loginInput, .conditionInput, .countInput, .select {
+.schemeInput, .loginInput, .conditionInput, .countInput, select {
     border: 1px solid #dedede;
     border-radius: 8px;
     padding:8px;
@@ -1431,4 +1431,18 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
 
 .loginElm .save {
     float: left;
+}
+
+#divRounding {
+    background: #fff;
+    border: 1px solid #dedede
+}
+
+#divRounding > .loginLbl {
+    background: #fff
+}
+
+#cboxContent {
+    background-image: none;    
+    background-color: #fff
 }
