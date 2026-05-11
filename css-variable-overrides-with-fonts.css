@@ -1312,6 +1312,10 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     padding: 9px 0 9px 5px !important;
 }
 
+#chooseTable {
+    height: 605px;
+}
+
 .content_panel_error {
     background-color: #f4b6b7;
 }
@@ -1329,4 +1333,95 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     width: 100%;
     padding: 5px 0;
     margin: 0;
+}
+
+
+
+#cboxTopLeft {
+    background-image: none;
+    background-color: #fff;
+    height: 21px;
+    width: 21px;
+    margin: 13px 0 0 13px;
+    border-left:  1px solid #DADADA;
+    border-top: 1px solid #DADADA;
+    border-top-left-radius: 16px;
+}
+
+#cboxTopCenter {
+    background-image: none;
+    background-color: #fff;
+    height: 21px;
+    margin: 13px 0 0 0;
+    border-top: 1px solid #DADADA;
+}
+
+#cboxTopRight {
+    background-image: none;
+    background-color: #fff;
+    height: 21px;
+    width: 21px;
+    margin: 13px 13px 0 0;
+    border-right:  1px solid #DADADA;
+    border-top: 1px solid #DADADA;
+    border-top-right-radius: 16px;
+}
+
+#cboxMiddleLeft {
+    background-image: none;
+    background-color: #fff;
+    width: 21px;
+    margin: 0 0 0 13px;
+    border-left:  1px solid #DADADA;
+}
+
+#cboxMiddleRight {
+    background-image: none;
+    background-color: #fff;
+    width: 21px;
+    margin: 0 13px 0 0; 
+    border-right:  1px solid #DADADA;
+}
+
+#cboxBottomLeft {
+    background-image: none;
+    background-color: #fff;
+    height: 21px;
+    width: 21px;
+    margin: 0 0 13px 13px;
+    border-left:  1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    border-bottom-left-radius: 16px;
+}
+
+#cboxBottomCenter {
+    background-image: none;
+    background-color: #fff;
+    height: 21px;
+    margin: 0 0 13px 0;
+    border-bottom: 1px solid #DADADA;
+}
+
+#cboxBottomRight {
+    background-image: none;
+    background-color: #fff;
+    height: 21px;
+    width: 21px;
+    margin: 0 13px 13px 0;
+    border-right:  1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    border-bottom-right-radius: 16px;
+}
+
+
+#cboxWrapper .content {
+    border: none
+}
+
+#cboxLoadedContent .table_wrapper.select_list_full {
+    height: 460px;
+    background-color: #fff;
+    border:  1px solid #dadada;
+    border-radius: 12px 3px 3px 12px;
+    width: 818px;
 }
