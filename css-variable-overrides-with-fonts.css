@@ -1307,3 +1307,26 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     font-weight: 400;
     font-size:14px
 }
+
+.ticked td {
+    padding: 9px 0 9px 5px !important;
+}
+
+.content_panel_error {
+    background-color: #f4b6b7;
+}
+
+.content_error {
+    background-color: #f4b6b7;
+    border-color: #e86e6d;
+}
+
+.errorList {
+    margin: 0;
+}
+
+.errorItem {
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+}
