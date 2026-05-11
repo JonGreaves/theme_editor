@@ -1294,3 +1294,16 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     float: right;
     clear: right;
 }
+
+#tickSchemes.show.hidden:before {
+    content: 'All other unselected Schemes';
+    display: inline-block;
+    background: none;
+    text-align: center;
+    width:540px;
+    margin: 48px 0;
+    position: absolute;
+    opacity: 40%;
+    font-weight: 400;
+    font-size:14px
+}
