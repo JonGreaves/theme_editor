@@ -1297,7 +1297,8 @@ a.link_button:link, a.link_button:visited, a.link_button:hover, a.link_button:ac
     clear: right;
 }
 
-#tickSchemes.show.hidden:before {
+#tickSchemes.show.hidden:before,
+#tickSchemes.hidden:before {
     content: 'All other unselected Schemes';
     display: inline-block;
     background: none;
